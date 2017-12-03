@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render NotFoundPage correctly 1`] = `
+<div>
+  <Connect(Header) />
+  <div
+    className="page-header"
+  >
+    <div
+      className="content-container"
+    >
+      <h1
+        className="page-header__title"
+      >
+        Yikes! Looks like that page doesn't exist. 🤦
+      </h1>
+      <div
+        className="page-header__actions"
+      >
+        <Link
+          className="button"
+          replace={false}
+          to="/dashboard"
+        >
+          Go Home
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+`;

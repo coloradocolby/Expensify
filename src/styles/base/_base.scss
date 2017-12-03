@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  // converts a 1rem (usually 16 pixels) to base 10, so 1rem = 10px
+  font-size: 62.5%; 
+}
+
+body {
+  color: $dark-grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  line-height: 1.6;
+}
+
+.is-active{
+  font-weight: bold;
+}

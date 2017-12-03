@@ -1,0 +1,27 @@
+.button {
+  background: $blue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 0px;
+  display: inline-block;
+  padding: $s-size;
+  font-weight: 300;
+  font-size: $font-size-large;
+  text-decoration: none;
+  line-height: 1;
+  transition: all .3s ease;
+}
+
+.button--link {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  &:hover {
+    box-shadow: none;
+  }
+}
+
+.button--secondary {
+  background: $dark-red;
+}
